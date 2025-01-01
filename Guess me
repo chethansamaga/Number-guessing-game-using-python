@@ -1,13 +1,12 @@
 import random
 
 def number_guessing_game():
-    """Plays a number guessing game with the user."""
 
     print("Welcome to the Number Guessing Game!")
     print("I'm thinking of a number between 1 and 100.")
 
     secret_number = random.randint(1, 100)
-    guesses_left = 7  # You can adjust the number of guesses
+    guesses_left = 7  
     guessed_correctly = False
 
     while guesses_left > 0:
